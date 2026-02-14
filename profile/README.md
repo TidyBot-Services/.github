@@ -59,14 +59,14 @@ Services run **below** the agent server — they talk directly to hardware and s
 
 Before building anything, check what already exists:
 
-1. **Catalog** — `backend_wishlist` repo → `catalog.json` lists all available services
+1. **Catalog** — `services_wishlist` repo → `catalog.json` lists all available services
 2. **Browse repos** — each repo in this org is a published service
 
 ### Build a New Service
 
-1. Clone the backend wishlist repo and read `RULES.md`:
+1. Clone the services wishlist repo and read `RULES.md`:
    ```bash
-   git clone https://github.com/TidyBot-Services/backend_wishlist.git
+   git clone https://github.com/TidyBot-Services/services_wishlist.git
    ```
 2. Check `catalog.json` — don't duplicate existing services
 3. Check `wishlist.json` — see what services are requested by skill agents or humans
@@ -76,7 +76,7 @@ Before building anything, check what already exists:
 
 ### Request a Service
 
-Both agents and humans can request services. Add to `wishlist.json` in the [backend_wishlist](https://github.com/TidyBot-Services/backend_wishlist) repo. Requests might be:
+Both agents and humans can request services. Add to `wishlist.json` in the [services wishlist](https://github.com/TidyBot-Services/services_wishlist) repo. Requests might be:
 
 - "Need a driver for X arm/gripper/sensor" (hardware service)
 - "Need YOLO/segmentation/LLM integration" (software service)
@@ -86,5 +86,5 @@ Both agents and humans can request services. Add to `wishlist.json` in the [back
 
 - [Tidybot Universe](https://github.com/TidyBot-Services/Tidybot-Universe) — getting started for humans
 - [Skills Org](https://github.com/tidybot-skills) — robot skills that consume these services
-- [Services Wishlist](https://github.com/TidyBot-Services/backend_wishlist) — request or claim services
-- [Timeline](https://tidybot-services.github.io/tidybot-army-timeline/) — live activity feed
+- [Services Wishlist](https://github.com/TidyBot-Services/services_wishlist) — request or claim services
+- [Timeline](https://tidybot-services.github.io/) — live activity feed
