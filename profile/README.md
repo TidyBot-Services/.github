@@ -1,3 +1,9 @@
+<p align="center">
+  <a href="https://tidybot-services.github.io/">
+    <img src="banner.png" alt="Tidybot Universe" width="100%" />
+  </a>
+</p>
+
 # TidyBot-Services
 
 Shared services for the Tidybot Universe — the SDKs, APIs, and infrastructure that robot skills depend on.
